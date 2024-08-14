@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "exo";
+    src: url("../sign-up-form/fonts/exo-font/exo-regular-webfont.woff2") format("woff2");
+    src: url("../sign-up-form/fonts/exo-font/exo-regular-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "abhaya";
+    src: url("../sign-up-form/fonts/abhaya-font/abhayalibre-regular-webfont.woff2") format("woff2");
+    src: url("../sign-up-form/fonts/abhaya-font/abhayalibre-regular-webfont.woff") format("woff");
+}
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ background-color: rgb(1, 1, 80);
+}
+
+fieldset{
+ border: none;  
+}
+
+form{
+ margin-left: 27%;  
+  
+}
+
+label{
+ font-family: "abhaya";
+ color:rgb(1, 1, 80)
+}
+
+button{
+ background-color: ghostwhite;
+ color: rgb(1, 1, 80);
+ border: none;
+ border-radius: 5px;
+ padding: 0.5em 1.3em;
+ box-shadow: 2px 2px 3px powderblue;
+ width: 150px;
+}
+
+.bottom-tag, button{
+ margin-top: 20px;
+ margin-left: 40px;
+}
+
+input, button{
+ font-family: inherit;   
+}
+
+.top-form{
+ height: 150px;
+ width: 600px;
+ font-size: 1.2em;
+ font-weight: bold;
+ align-items: center;
+ padding-top: 60px;
+ position: absolute;
+ left: 450px;
+}
+
+h4{
+ position: absolute;
+ top: 10px;
+ left: 20px;
+ background-color: ghostwhite;
+ font-size: 1.4em;
+ color: rgb(1, 1, 80);
+}
+
+.mid-form{
+ margin: 2px;
+ position: absolute;
+ top: 220px;
+ width: 75%;
+ background-color: ghostwhite;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 220px;
+ color: ghostwhite;
+ box-shadow: 4px 4px 6px powderblue;    
+}
+
+input{
+ border: 1.5px solid #E5E7EB;
+ appearance: none;
+ padding: 0.3em;
+ border-radius: 3px; 
+}
+
+input, label{
+ background-color: ghostwhite;
+ margin: 2px;
+}
+
+.input-side-1, .input-side-2{
+ width: 150px;
+ background-color: ghostwhite;
+ position: relative;
+}
+
+.input-side-1{
+ margin-right: 200px; 
+}
+
+.input-side-2{
+ margin-right: 170px;
+ right: 90px;
+}
+
+.bottom-form{
+ position: absolute;
+ bottom: 65px;
+ margin:2px;
+}
+
+img{
+ height: 100%;
+ width: 370px;
+ position: fixed;
+ left: 0;
+ z-index: 1;
+}
+
+p{
+ color: ghostwhite;
+}
+
+p:nth-child(2){
+ margin-top: 25px;
+}
+
+a{
+ color: powderblue;
+}
+
+#pwd:invalid{
+ outline: solid 1px red;
+}
+
+input:focus{
+ outline: solid 1px powderblue;
+ box-shadow: 2px 2px 4px powderblue;
+}
+
+.container, .logo-wrap{
+ background: rgba(0, 0, 0, 0.2);;
+ color: white;
+ width: 27%;
+ height: 90px;
+ z-index: 2;
+ position: fixed;
+ left: 0;
+ top:20%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.8em;
+ font-family: "exo";
+ color:ghostwhite;
+}
+
+.logo{
+ background: rgba(0, 0, 0, 0.1);
+ height: 2.2em;
+ width: 2.2em;
+ margin-left: 55px;
+ margin-bottom: 10px;
+}
+
